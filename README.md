@@ -1,3 +1,11 @@
+# TODO
+
+Close button on the drawer - Should be made by lifting state up to the HungerMap component.
+
+# Info
+The drawer can be closed by clicking anywhere on the map, but Africa.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
