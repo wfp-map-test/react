@@ -1,0 +1,24 @@
+.drawer {
+    position: fixed;
+    width: 30vw;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFF;
+    transform: translateX(30vw);
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.drawer.open {
+    transform: translateX(0vw);
+}
+
+.header {
+    padding: var(--padding);
+    background: var(--wfpBlue);
+    color: #FFF;
+}
+
+.body {
+    padding: var(--padding);
+}

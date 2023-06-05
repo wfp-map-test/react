@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/**
+ * NOTE:
+ *  Due to limited time, this is a "make is work setup".
+ *  Variables should be generic, and not defined to support i.eg. an hr tag (--hrColor).
+ */
+:root {
+    --padding: 20px;
+    --mapBackground: #191A1A;
+    --wfpBlue: #007DBC;
+    --hrColor: #CCC;
+    --headerHeight: 7.5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background: var(--mapBackground);
+    overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/** Make the headings look just a little bit elegant  */
+h1, h2 {
+    font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+    border-top: .5px solid var(--hrColor);
 }

@@ -1,0 +1,48 @@
+header {
+    height: var(--headerHeight);
+    background: #CCC;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    font-size: 2.5vw;
+}
+
+/* Make the header responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 2.75vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 2.5vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 2vw;
+    }
+}
