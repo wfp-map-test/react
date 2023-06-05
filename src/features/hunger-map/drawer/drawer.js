@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styles from './drawer.module.css';
-import {HungerMapConfiguration} from "../../hunger-map/hunger-map-configuration";
-import {PropertiesContext} from "../../hunger-map/hunger-map";
+import {HungerMapConfiguration} from '../hunger-map-configuration';
+import {PropertiesContext} from '../hunger-map';
 
 export const Drawer = (props) => {
 

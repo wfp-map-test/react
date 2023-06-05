@@ -1,7 +1,7 @@
 import featureCollection from '../../feature-collection.json';
 
 // Reduce properties, only a few is needed for this test/poc.
-const propertyKeys = ["name", "pop_est", "pop_year", "economy", "income_grp", "iso_a3", "continent", "subregion", "region_wb"];
+const propertyKeys = ['name', 'pop_est', 'pop_year', 'economy', 'income_grp', 'iso_a3', 'continent', 'subregion', 'region_wb'];
 
 const features = featureCollection.features.reduce((accumulator, current) => {
     const properties = {};
@@ -65,11 +65,11 @@ export const HungerMapConfiguration= {
     },
     layers: {
         stateFills: {
-            'id': 'state-fills',
-            'type': 'fill',
-            'source': sourceId,
-            'layout': {},
-            'paint': {
+            id: 'state-fills',
+            type: 'fill',
+            source: sourceId,
+            layout: {},
+            paint: {
                 'fill-color': fillColor,
                 'fill-opacity': [
                     'case',
@@ -80,20 +80,20 @@ export const HungerMapConfiguration= {
             }
         },
         stateFillsHighlighted: {
-            'id': 'state-fills-highlighted',
-            'type': 'fill',
-            'source': sourceId,
-            'paint': {
+            id: 'state-fills-highlighted',
+            type: 'fill',
+            source: sourceId,
+            paint: {
                 'fill-color': fillColor,
                 'fill-opacity': 0.6
             },
-            'filter': ['in', 'iso_a3', '']
+            filter: ['in', 'iso_a3', '']
         },
         stateLines: {
-            'id': 'state-lines',
-            'type': 'line',
-            'source': sourceId,
-            'paint': {
+            id: 'state-lines',
+            type: 'line',
+            source: sourceId,
+            paint: {
                 'line-color': '#000',
                 'line-width': 1,
                 'line-opacity': 0.05,

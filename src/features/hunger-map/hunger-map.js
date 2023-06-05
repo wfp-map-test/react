@@ -4,10 +4,12 @@ import bbox from '@turf/bbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 // Components
-import { Drawer } from "../ui/drawer/drawer";
-import { LoadingScreen } from "../ui/loading-screen/loading-screen";
+import { Drawer } from './drawer/drawer';
+import { LoadingScreen } from '../ui/loading-screen/loading-screen';
+
 // Map configuration
-import { HungerMapConfiguration } from "./hunger-map-configuration";
+import { HungerMapConfiguration } from './hunger-map-configuration';
+
 // Styles
 import './../../App.css';
 

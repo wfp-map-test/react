@@ -5,7 +5,7 @@ import { HomePage } from './pages/home/home-page';
 import { NotFoundPage } from './pages/not-found/not-found-page';
 
 // UI components
-import { Header } from "./features/ui/header/header";
+import { Header } from './features/ui/header/header';
 
 import './App.css';
 
